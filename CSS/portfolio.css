@@ -1,0 +1,102 @@
+:root {
+  --primary-color: ##06b6d4;
+  --dark-color: #0f172a;
+  --light-bg: #f1f5f9;
+}
+
+section {
+  scroll-margin-top: 70px;
+}
+
+.navbar {
+  box-shadow: 0 2px 5px rgba(0, 0green, 0blue, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#home {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: white;
+}
+
+#home h1 {
+  font-size: 3rem;
+}
+
+#home .btn-primary {
+  background-color: 06B6D4;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-weight: 600;
+}
+
+#home .btn-primary:hover {
+  background-color: #0891b2;
+  transform: translateY(-5px);
+  transition: all 0.3s;
+}
+
+#about {
+  padding: 80px 0;
+}
+
+#profilePic {
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+}
+
+#skills {
+  padding: 80px 0;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0green, 0blue, 0.1);
+}
+
+#projects {
+  padding: 80px 0;
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+#contact a {
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+#contact i {
+  color: #06b6d4;
+}
+
+#contact .row > div {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  #home h1 {
+    font-size: 2rem;
+  }
+
+  #profile-pic {
+    max-width: 250px;
+  }
+}
