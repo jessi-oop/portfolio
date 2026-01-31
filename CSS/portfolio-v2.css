@@ -10,11 +10,14 @@ body {
   margin: 2rem auto;
   background-color: white;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 .header-section {
-  padding: 3rem 3rem 2rem 3rem;
+  padding: 2rem 2rem 2rem 1rem;
   border-bottom: 1px solid #e0e0e0;
+  margin: 10px;
 }
 
 .profile-img {
@@ -86,8 +89,10 @@ body {
 }
 
 .content-section {
-  padding: 3rem;
-  border-bottom: 1px solid #e0e0e0;
+  padding: 1.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  margin-bottom: 1rem;
 }
 
 .section-title {
@@ -213,9 +218,12 @@ body {
   text-decoration: underline;
 }
 
+.row {
+  margin: 2px;
+}
+
 .col-lg-4 {
-  background-color: #fafafa;
-  border-left: 1px solid #e0e0e0;
+  border-radius: 12px;
 }
 
 /* Certification Styles */
@@ -233,6 +241,11 @@ body {
   color: #1a1a1a;
   margin-bottom: 0.25rem;
   font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.cert-name:hover {
+  color: #0066cc;
 }
 
 .cert-issuer {
@@ -244,4 +257,28 @@ body {
 .cert-date {
   color: #999;
   font-size: 0.85rem;
+}
+
+/* Currently learning styles*/
+
+.learning-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.learning-item:last-child {
+  border-bottom: none;
+}
+
+.learning-name {
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 0.25rem;
+  font-size: 0.95rem;
+}
+
+.learning-description {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
 }
